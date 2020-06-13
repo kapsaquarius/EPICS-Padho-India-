@@ -4,6 +4,6 @@ A web application build for EPICS
 
 In order to run the project locally, follow the steps below:
 
--> Run the command python manage.py runserver
--> Site will be running locally on the URL : http://127.0.0.1/
+# -> Run the command python manage.py runserver
+# -> Site will be running locally on the URL : http://127.0.0.1/
 
