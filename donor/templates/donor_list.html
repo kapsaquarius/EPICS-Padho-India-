@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF9633;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+<title>DONOR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+
+
+
+<ul>
+  <li><a href="{% url 'donor_home_page' %}">DONOR</a></li>
+  <li><a class="active" href="{% url 'school_home_page' %}">SCHOOL</a></li>
+  <li><a href="{% url 'map' %}">MAP</a></li>
+  <li><a href="#about">ABOUT</a></li>
+   <li><a href="{% url 'donors' %}">OUR DONORS</a></li>
+</ul>
+
+<p style="text-align:center;" class="w3-xxlarge">Here are some of our most generous donors!</p>
+
+<br></br>
+
+<p style="text-align:center;" class="w3-xxlarge">We thank you for all your contributions!</p>
+<div class="jumbotron">
+  <ul>
+    {% for donor in donors %}
+    <div>
+    <h4 class="jumbotron"><h4><b>Donor name :</b>{{donor.name}}</h4>
+    <h4><b>Phone number : </b>{{donor.phone_number}}</h4>
+    </div>
+    {% endfor %}
+  </ul>  
+</div>
+
+</body>
+</html>

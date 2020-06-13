@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c3e47cb107a34bedab4d80ccb5a2a8c3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c3e47cb107a34bedab4d80ccb5a2a8c3" ></div>
+        
+</body>
+<script>    
+    
+            var map_c3e47cb107a34bedab4d80ccb5a2a8c3 = L.map(
+                "map_c3e47cb107a34bedab4d80ccb5a2a8c3",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    title: "loc",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9571c2ebdb0b49f08793f68b0fae748d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var marker_0817569c2966497e9a8059580e629c8f = L.marker(
+                [17.9884794, 79.5303674],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_fc5243703d9e4eecb7857281195b245f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0817569c2966497e9a8059580e629c8f.setIcon(icon_fc5243703d9e4eecb7857281195b245f);
+        
+    
+        var popup_1d545c350bfb47fe925a404c7d00b870 = L.popup({"maxWidth": 2650});
+
+        
+            var html_e9a8daa7f29f4b32955c40185f643af8 = $(`<div id="html_e9a8daa7f29f4b32955c40185f643af8" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NITW<br>100 chairs</a></div>`)[0];
+            popup_1d545c350bfb47fe925a404c7d00b870.setContent(html_e9a8daa7f29f4b32955c40185f643af8);
+        
+
+        marker_0817569c2966497e9a8059580e629c8f.bindPopup(popup_1d545c350bfb47fe925a404c7d00b870)
+        ;
+
+        
+    
+    
+            var marker_e8044cf359af4752976ede4328160702 = L.marker(
+                [10.76338535, 78.81502919117466],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_568f78fe16f940f69dea70c1564782f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e8044cf359af4752976ede4328160702.setIcon(icon_568f78fe16f940f69dea70c1564782f5);
+        
+    
+        var popup_7a05d19594c64018891e0def46aa30dd = L.popup({"maxWidth": 2650});
+
+        
+            var html_0d2ceaae1c624ff390aa6475e4215663 = $(`<div id="html_0d2ceaae1c624ff390aa6475e4215663" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NITT<br>100 tables</a></div>`)[0];
+            popup_7a05d19594c64018891e0def46aa30dd.setContent(html_0d2ceaae1c624ff390aa6475e4215663);
+        
+
+        marker_e8044cf359af4752976ede4328160702.bindPopup(popup_7a05d19594c64018891e0def46aa30dd)
+        ;
+
+        
+    
+    
+            var marker_b0b4d4df161a409ba399e23ea3c06b82 = L.marker(
+                [17.9884794, 79.5303674],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_11b0eb1d2a784beab3d53af139df40b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0b4d4df161a409ba399e23ea3c06b82.setIcon(icon_11b0eb1d2a784beab3d53af139df40b2);
+        
+    
+        var popup_6a5d0617af6a404e986086d0686d23b9 = L.popup({"maxWidth": 2650});
+
+        
+            var html_a9c90ddfad0647878e0c0acd609bc666 = $(`<div id="html_a9c90ddfad0647878e0c0acd609bc666" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NITW<br>chairs</a></div>`)[0];
+            popup_6a5d0617af6a404e986086d0686d23b9.setContent(html_a9c90ddfad0647878e0c0acd609bc666);
+        
+
+        marker_b0b4d4df161a409ba399e23ea3c06b82.bindPopup(popup_6a5d0617af6a404e986086d0686d23b9)
+        ;
+
+        
+    
+    
+            var marker_62844b270bc5414fa4df921a4a9d8b6a = L.marker(
+                [22.2531304, 84.90158279701691],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_a29f6a498a7d446d9f911e33e99fea24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_62844b270bc5414fa4df921a4a9d8b6a.setIcon(icon_a29f6a498a7d446d9f911e33e99fea24);
+        
+    
+        var popup_8e83c60c2a7e4baba3797195eeead632 = L.popup({"maxWidth": 2650});
+
+        
+            var html_f45bf97bfeea4050ae24670032183d2f = $(`<div id="html_f45bf97bfeea4050ae24670032183d2f" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Rourkela<br>100 books</a></div>`)[0];
+            popup_8e83c60c2a7e4baba3797195eeead632.setContent(html_f45bf97bfeea4050ae24670032183d2f);
+        
+
+        marker_62844b270bc5414fa4df921a4a9d8b6a.bindPopup(popup_8e83c60c2a7e4baba3797195eeead632)
+        ;
+
+        
+    
+    
+            var marker_793cb6dbf0f04ddeb01ae85a1d6505a5 = L.marker(
+                [23.8312377, 91.2823821],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_56fbcf2069dd4838b28f0ed6cdd10c81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_793cb6dbf0f04ddeb01ae85a1d6505a5.setIcon(icon_56fbcf2069dd4838b28f0ed6cdd10c81);
+        
+    
+        var popup_c01f5857fa424886a54614911caddad5 = L.popup({"maxWidth": 2650});
+
+        
+            var html_ff9da1de847b4051a51200c90d606337 = $(`<div id="html_ff9da1de847b4051a51200c90d606337" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Agartala<br>1000 Chairs</a></div>`)[0];
+            popup_c01f5857fa424886a54614911caddad5.setContent(html_ff9da1de847b4051a51200c90d606337);
+        
+
+        marker_793cb6dbf0f04ddeb01ae85a1d6505a5.bindPopup(popup_c01f5857fa424886a54614911caddad5)
+        ;
+
+        
+    
+    
+            var marker_0ededc062c494f2493f8a7b69fe8ee40 = L.marker(
+                [23.8312377, 91.2823821],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_1df0b2061ec140b6b55b196db5eb58a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0ededc062c494f2493f8a7b69fe8ee40.setIcon(icon_1df0b2061ec140b6b55b196db5eb58a8);
+        
+    
+        var popup_b1f00ed8b03c4e0188b62792ab40e5e5 = L.popup({"maxWidth": 2650});
+
+        
+            var html_d69d0b5e644b4a9f87cf7b1c9d234fa3 = $(`<div id="html_d69d0b5e644b4a9f87cf7b1c9d234fa3" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Agartala<br>1000 Chairs</a></div>`)[0];
+            popup_b1f00ed8b03c4e0188b62792ab40e5e5.setContent(html_d69d0b5e644b4a9f87cf7b1c9d234fa3);
+        
+
+        marker_0ededc062c494f2493f8a7b69fe8ee40.bindPopup(popup_b1f00ed8b03c4e0188b62792ab40e5e5)
+        ;
+
+        
+    
+    
+            var marker_921444ab7f1042f486854208fb348b28 = L.marker(
+                [23.8312377, 91.2823821],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_6e1a9752b0fa431c9db23ab20ffb7cfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_921444ab7f1042f486854208fb348b28.setIcon(icon_6e1a9752b0fa431c9db23ab20ffb7cfb);
+        
+    
+        var popup_82a4501cd3e24159a96f3911a30ab048 = L.popup({"maxWidth": 2650});
+
+        
+            var html_5d1167c12dcf4e4ea3beab1b67499e9d = $(`<div id="html_5d1167c12dcf4e4ea3beab1b67499e9d" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Agartala<br>1000 Chairs</a></div>`)[0];
+            popup_82a4501cd3e24159a96f3911a30ab048.setContent(html_5d1167c12dcf4e4ea3beab1b67499e9d);
+        
+
+        marker_921444ab7f1042f486854208fb348b28.bindPopup(popup_82a4501cd3e24159a96f3911a30ab048)
+        ;
+
+        
+    
+    
+            var marker_0d44a0f0475b48daa3ac28382c258e60 = L.marker(
+                [11.3196331, 75.9311902],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_366cf9fb1f4e475db8f8e3c90244b9e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0d44a0f0475b48daa3ac28382c258e60.setIcon(icon_366cf9fb1f4e475db8f8e3c90244b9e7);
+        
+    
+        var popup_81dff82f339b4fd9bd5918bdad6021fe = L.popup({"maxWidth": 2650});
+
+        
+            var html_4cc0f48db4bf4f1e9d5b70a4c1571227 = $(`<div id="html_4cc0f48db4bf4f1e9d5b70a4c1571227" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Calicut<br>100 Blackboards</a></div>`)[0];
+            popup_81dff82f339b4fd9bd5918bdad6021fe.setContent(html_4cc0f48db4bf4f1e9d5b70a4c1571227);
+        
+
+        marker_0d44a0f0475b48daa3ac28382c258e60.bindPopup(popup_81dff82f339b4fd9bd5918bdad6021fe)
+        ;
+
+        
+    
+    
+            var marker_5f6e178cc5e546f29c04648cbc627d30 = L.marker(
+                [28.5681409, 77.1987107],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_a13c32cc811849c8b6a79b14814e2e0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5f6e178cc5e546f29c04648cbc627d30.setIcon(icon_a13c32cc811849c8b6a79b14814e2e0a);
+        
+    
+        var popup_0893957dde71452d90c51da96abaa233 = L.popup({"maxWidth": 2650});
+
+        
+            var html_e2bcacf309a147cd8767ba283d8604c5 = $(`<div id="html_e2bcacf309a147cd8767ba283d8604c5" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Delhi<br>100 Tables</a></div>`)[0];
+            popup_0893957dde71452d90c51da96abaa233.setContent(html_e2bcacf309a147cd8767ba283d8604c5);
+        
+
+        marker_5f6e178cc5e546f29c04648cbc627d30.bindPopup(popup_0893957dde71452d90c51da96abaa233)
+        ;
+
+        
+    
+    
+            var marker_3885f055a3ed4f70ba82b92b3ca34fa7 = L.marker(
+                [28.5681409, 77.1987107],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_d082766e86ef41d5990d5db716166cbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3885f055a3ed4f70ba82b92b3ca34fa7.setIcon(icon_d082766e86ef41d5990d5db716166cbb);
+        
+    
+        var popup_6a8ccef1f78e40c0a74494520ac79416 = L.popup({"maxWidth": 2650});
+
+        
+            var html_8f4d0a5571b1455f89bfa5963306b9f8 = $(`<div id="html_8f4d0a5571b1455f89bfa5963306b9f8" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Delhi<br>100 Tables</a></div>`)[0];
+            popup_6a8ccef1f78e40c0a74494520ac79416.setContent(html_8f4d0a5571b1455f89bfa5963306b9f8);
+        
+
+        marker_3885f055a3ed4f70ba82b92b3ca34fa7.bindPopup(popup_6a8ccef1f78e40c0a74494520ac79416)
+        ;
+
+        
+    
+    
+            var marker_32f12f2f57e14858bb71e2ac8a883f7d = L.marker(
+                [28.5681409, 77.1987107],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_861f60f801e0473f98d0593ba3b33247 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_32f12f2f57e14858bb71e2ac8a883f7d.setIcon(icon_861f60f801e0473f98d0593ba3b33247);
+        
+    
+        var popup_16a1a881fee846a8989863c8f54c4004 = L.popup({"maxWidth": 2650});
+
+        
+            var html_8da1539d9f794a20b4a7eaa6909a5630 = $(`<div id="html_8da1539d9f794a20b4a7eaa6909a5630" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Delhi<br>100 Tables</a></div>`)[0];
+            popup_16a1a881fee846a8989863c8f54c4004.setContent(html_8da1539d9f794a20b4a7eaa6909a5630);
+        
+
+        marker_32f12f2f57e14858bb71e2ac8a883f7d.bindPopup(popup_16a1a881fee846a8989863c8f54c4004)
+        ;
+
+        
+    
+    
+            var marker_e9de0861061e4c7bb5e0640934fdeffb = L.marker(
+                [28.5681409, 77.1987107],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_7a7a648427644d589042b3c701b57782 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e9de0861061e4c7bb5e0640934fdeffb.setIcon(icon_7a7a648427644d589042b3c701b57782);
+        
+    
+        var popup_808ace9e4a7543c9a448b5855cae15b8 = L.popup({"maxWidth": 2650});
+
+        
+            var html_59a90bff474047f2bf856847f0c786fc = $(`<div id="html_59a90bff474047f2bf856847f0c786fc" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Delhi<br>100 Tables</a></div>`)[0];
+            popup_808ace9e4a7543c9a448b5855cae15b8.setContent(html_59a90bff474047f2bf856847f0c786fc);
+        
+
+        marker_e9de0861061e4c7bb5e0640934fdeffb.bindPopup(popup_808ace9e4a7543c9a448b5855cae15b8)
+        ;
+
+        
+    
+    
+            var marker_cd2a316df6bc4410ac62d38678bcdef2 = L.marker(
+                [28.5681409, 77.1987107],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_f091981acedf4f5bbfb44c6cfa0e4029 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd2a316df6bc4410ac62d38678bcdef2.setIcon(icon_f091981acedf4f5bbfb44c6cfa0e4029);
+        
+    
+        var popup_f64b0ce0023f442bb372ce50dee1dcc1 = L.popup({"maxWidth": 2650});
+
+        
+            var html_482009bd201343bf833a49527fae1159 = $(`<div id="html_482009bd201343bf833a49527fae1159" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Delhi<br>100 Tables</a></div>`)[0];
+            popup_f64b0ce0023f442bb372ce50dee1dcc1.setContent(html_482009bd201343bf833a49527fae1159);
+        
+
+        marker_cd2a316df6bc4410ac62d38678bcdef2.bindPopup(popup_f64b0ce0023f442bb372ce50dee1dcc1)
+        ;
+
+        
+    
+    
+            var marker_4f2818a5b9af4bbdbd5fbdba99fb9432 = L.marker(
+                [28.5681409, 77.1987107],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_67b147c791834c05a1b821ca64ef4eb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f2818a5b9af4bbdbd5fbdba99fb9432.setIcon(icon_67b147c791834c05a1b821ca64ef4eb0);
+        
+    
+        var popup_363445e439c44b77bdd57d2778dde0cc = L.popup({"maxWidth": 2650});
+
+        
+            var html_2d0de30051d04477b59f2b5d9e29d5ce = $(`<div id="html_2d0de30051d04477b59f2b5d9e29d5ce" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Delhi<br>100 Tables</a></div>`)[0];
+            popup_363445e439c44b77bdd57d2778dde0cc.setContent(html_2d0de30051d04477b59f2b5d9e29d5ce);
+        
+
+        marker_4f2818a5b9af4bbdbd5fbdba99fb9432.bindPopup(popup_363445e439c44b77bdd57d2778dde0cc)
+        ;
+
+        
+    
+    
+            var marker_3b60dcbbccaa492ab6c832227ebe6414 = L.marker(
+                [28.5681409, 77.1987107],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_7389d436f6414b688ad437bddbd4f969 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b60dcbbccaa492ab6c832227ebe6414.setIcon(icon_7389d436f6414b688ad437bddbd4f969);
+        
+    
+        var popup_c9a4c6e8c20946f6a5e93d7d69c81d02 = L.popup({"maxWidth": 2650});
+
+        
+            var html_7a83e41bf63b45a48bffbdd57e605c42 = $(`<div id="html_7a83e41bf63b45a48bffbdd57e605c42" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Delhi<br>100 Tables</a></div>`)[0];
+            popup_c9a4c6e8c20946f6a5e93d7d69c81d02.setContent(html_7a83e41bf63b45a48bffbdd57e605c42);
+        
+
+        marker_3b60dcbbccaa492ab6c832227ebe6414.bindPopup(popup_c9a4c6e8c20946f6a5e93d7d69c81d02)
+        ;
+
+        
+    
+    
+            var marker_0d197bc334494f3fbf226e80489e8239 = L.marker(
+                [21.2488617, 81.6050303],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_fa2d6d9f55164f1499d8783b7de0598d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0d197bc334494f3fbf226e80489e8239.setIcon(icon_fa2d6d9f55164f1499d8783b7de0598d);
+        
+    
+        var popup_50b7691a89574e7785c9f4f8a985cdfe = L.popup({"maxWidth": 2650});
+
+        
+            var html_c99eee7ba1d941d69e8cf9e6e34c17c5 = $(`<div id="html_c99eee7ba1d941d69e8cf9e6e34c17c5" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Raipur<br>200 Books</a></div>`)[0];
+            popup_50b7691a89574e7785c9f4f8a985cdfe.setContent(html_c99eee7ba1d941d69e8cf9e6e34c17c5);
+        
+
+        marker_0d197bc334494f3fbf226e80489e8239.bindPopup(popup_50b7691a89574e7785c9f4f8a985cdfe)
+        ;
+
+        
+    
+    
+            var marker_4819d0a1f1664aa1a9b37020fb8ca521 = L.marker(
+                [24.829588, 92.797148],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_52313c62e6ee46a5994e8876c323d5f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4819d0a1f1664aa1a9b37020fb8ca521.setIcon(icon_52313c62e6ee46a5994e8876c323d5f5);
+        
+    
+        var popup_f8564536608f4cfdb49424cfeda95034 = L.popup({"maxWidth": 2650});
+
+        
+            var html_479d9c761fee469c92b3540c66282a30 = $(`<div id="html_479d9c761fee469c92b3540c66282a30" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Silchar<br>150 Blackboards</a></div>`)[0];
+            popup_f8564536608f4cfdb49424cfeda95034.setContent(html_479d9c761fee469c92b3540c66282a30);
+        
+
+        marker_4819d0a1f1664aa1a9b37020fb8ca521.bindPopup(popup_f8564536608f4cfdb49424cfeda95034)
+        ;
+
+        
+    
+    
+            var marker_bfb2bbd52ce04139b4b9cd6499ef2b44 = L.marker(
+                [23.8312377, 91.2823821],
+                {}
+            ).addTo(map_c3e47cb107a34bedab4d80ccb5a2a8c3);
+        
+    
+            var icon_39c34f2f06f140bdb3c418d842429137 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bfb2bbd52ce04139b4b9cd6499ef2b44.setIcon(icon_39c34f2f06f140bdb3c418d842429137);
+        
+    
+        var popup_dcdacbf46cbd46e6b2a93f652e8082a0 = L.popup({"maxWidth": 2650});
+
+        
+            var html_da8ac2520c8f4b718e47dc96919b37a8 = $(`<div id="html_da8ac2520c8f4b718e47dc96919b37a8" style="width: 100.0%; height: 100.0%;"><a href="http://127.0.0.1:8000/donation_form/"target="_blank">NIT Agartala<br>100 Tables</a></div>`)[0];
+            popup_dcdacbf46cbd46e6b2a93f652e8082a0.setContent(html_da8ac2520c8f4b718e47dc96919b37a8);
+        
+
+        marker_bfb2bbd52ce04139b4b9cd6499ef2b44.bindPopup(popup_dcdacbf46cbd46e6b2a93f652e8082a0)
+        ;
+
+        
+    
+</script>
